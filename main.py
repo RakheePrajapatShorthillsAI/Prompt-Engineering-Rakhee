@@ -4,7 +4,6 @@ import pandas as pd
 import time
 import matplotlib.pyplot as plt
 import json
-
 def fetch_nifty50_data():
     """
     Retrieve Nifty 50 stock data from the NSE API.
