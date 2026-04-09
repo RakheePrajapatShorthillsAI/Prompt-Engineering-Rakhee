@@ -22,7 +22,6 @@ def fetch_nifty50_data():
     
     response = session.get(url)
     return response.json() if response.status_code == 200 else None
-
 def get_movers(data, count=5):
     """
     Extracts top gainers and losers based on percentage change.
